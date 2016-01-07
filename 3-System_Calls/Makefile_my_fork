@@ -1,0 +1,4 @@
+all: my_fork
+
+my_fork: my_fork.c
+	gcc -o my_fork my_fork.c
